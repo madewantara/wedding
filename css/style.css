@@ -89,6 +89,11 @@ a:hover, a:focus, a:active {
   text-decoration: none;
 }
 
+.location:focus{
+  color: white;
+  text-decoration: none;
+}
+
 .probootstrap-navbar {
   border: none;
   -webkit-box-shadow: none;
@@ -842,9 +847,9 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-footer {
-  background: #ffffff;
-  padding: 70px 0;
-  color: #a7af71;
+  background: #a7af71;
+  padding: 10px 0;
+  color: #ffffff;
 }
 
 .probootstrap-footer a {
@@ -1661,7 +1666,7 @@ a:hover, a:focus, a:active {
 }
 
 .location:hover{
-  color: #b1b881;
+  color: black;
   background-color: white;
 }
 
@@ -1671,16 +1676,340 @@ a:hover, a:focus, a:active {
   margin-bottom: 60px;
 }
 
-/* @media only screen and (min-width: 200px) and (max-width: 600px){
-  .flexslider .slides > li{
-    background-image: url('img/Slide1-HP.jpg') !important;
-    width: 100%;
-    float: left;
-    margin-right: -100%;
-    position: relative;
-    opacity: 1;
-    display: block;
-    transition: opacity 1s ease 0s;
+
+@media screen and (min-width: 0px) and (max-width: 280px) {
+  #play{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3rem;
+    float: right;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    margin-bottom: 32%;
+    margin-right: 7%;
+  }
+
+  #pause{
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 3rem;
+    float: right;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 17pt;
+    margin-bottom: 8%;
+    margin-right: 7%;
+  }
+}
+
+@media screen and (min-width: 281px) and (max-width: 320px) {
+  #play{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3rem;
+    float: right;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    margin-bottom: 30%;
+    margin-right: 7%;
+  }
+
+  #pause{
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 3rem;
+    float: right;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 17pt;
+    margin-bottom: 8%;
+    margin-right: 7%;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 758px) {
+  #play{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3rem;
+    float: right;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    margin-bottom: 27%;
+    margin-right: 7%;
+  }
+
+  #pause{
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 3rem;
+    float: right;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 17pt;
+    margin-bottom: 9%;
+    margin-right: 7%;
+  }
+}
+
+@media screen and (min-width: 759px) and (max-width: 760px) {
+  #play{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3rem;
+    float: right;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    margin-bottom: 30%;
+    margin-right: 7%;
+  }
+
+  #pause{
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 3rem;
+    float: right;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 17pt;
+    margin-bottom: 10%;
+    margin-right: 7%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+  #play{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3rem;
+    float: right;
+    margin-right: 7%;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20%;
     z-index: 999;
   }
-} */
+
+  #pause{
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 3rem;
+    float: right;
+    margin-right: 7%;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10%;
+    z-index: 999;
+    font-size: 17pt;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px){
+  #play{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3rem;
+    float: right;
+    margin-right: 7%;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 18%;
+    z-index: 999;
+  }
+
+  #pause{
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 3rem;
+    float: right;
+    margin-right: 7%;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10%;
+    z-index: 999;
+    font-size: 17pt;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2560px){
+  #play{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 3rem;
+    float: right;
+    margin-right: 5%;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 7%;
+    z-index: 999;
+  }
+
+  #pause{
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3rem;
+    float: right;
+    margin-right: 5%;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2%;
+    z-index: 999;
+    font-size: 17pt;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #slide1{
+    background-image: url("Slide1-HP.jpg"); 
+    background-size: 100% 100%;
+  }
+  #slide2{
+    background-image: url("Slide2-HP.jpg");
+    background-size: 100% 100%; 
+  }
+  #slide3{
+    background-image: url("Slide3-HP.jpg");
+    background-size: 100% 100%; 
+  }
+  #slide4{
+    background-image: url("Slide4-HP.jpg");
+    background-size: 100% 100%; 
+  }
+  .example{
+    background-image: url("css/Lokasibg3.png");
+    background-size: 100% 100%; 
+   }
+   div#lokasi{
+    padding: 0em 0em 0em 0em  !important;
+  }
+  section#galeri{
+    padding: 0em 0em 5em 0em  !important;
+  }
+  #image1{
+    display: none;
+  }
+  #image2{
+    display: block;
+  }
+  div#containerlokasi{
+    padding-bottom: 4.8% !important; 
+    margin-top: -14.7% !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 2560px){
+  #slide1{
+    background-image: url("Slide1.jpg");
+    background-size: 100% 100%; 
+  }
+  #slide2{
+    background-image: url("Slide2.jpg");
+    background-size: 100% 100%; 
+  }
+  #slide3{
+    background-image: url("Slide3.jpg");
+    background-size: 100% 100%; 
+  }
+  #slide4{
+    background-image: url("Slide4.jpg");
+    background-size: 100% 100%; 
+  }
+  div#lokasi{
+    padding: 0em 0em 0em 0em  !important;
+  }
+  section#galeri{
+    padding: 0em 0em 5em 0em  !important;
+  }
+  #image1{
+    display: block;
+  }
+  #image2{
+    display: none;
+  }
+  div#containerlokasi{
+    padding-bottom: 4.8% !important; 
+    margin-top: -6.7% !important;
+  }
+}
+
+.probootstrap-section{
+  margin-top: -1%;
+}
