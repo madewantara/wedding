@@ -843,17 +843,17 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored-darker {
-  background: #a7af71;
+  background: #ffffff;
 }
 
 .probootstrap-footer {
-  background: #a7af71;
+  background: #ffffff;
   padding: 10px 0;
-  color: #ffffff;
+  color: #a7af71;
 }
 
 .probootstrap-footer a {
-  color: #ffffff;
+  color: #a7af71;
   text-decoration: underline;
 }
 
