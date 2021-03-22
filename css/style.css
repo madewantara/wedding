@@ -1913,7 +1913,7 @@ a:hover, a:focus, a:active {
     position: fixed;
     bottom: 0;
     right: 0;
-    margin-bottom: 7%;
+    margin-bottom: 8%;
     z-index: 999;
   }
 
